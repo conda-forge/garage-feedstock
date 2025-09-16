@@ -7,7 +7,7 @@
 
 [project]
 name = "garage-feedstock"
-version = "3.50.1"  # conda-smithy version used to generate this file
+version = "3.52.2"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/garage-feedstock"
 authors = ["@conda-forge/garage"]
 channels = ["conda-forge"]
@@ -58,6 +58,7 @@ description = "List contents of garage-feedstock packages built for variant osx_
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
+shellcheck = "*"
 [feature.smithy.tasks.build-locally]
 cmd = "python ./build-locally.py"
 description = "Build packages locally using the same setup scripts used in conda-forge's CI"
