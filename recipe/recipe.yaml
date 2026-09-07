@@ -1,6 +1,6 @@
 context:
   name: garage
-  version: "2.3.0"
+  version: "2.4.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://git.deuxfleurs.fr/Deuxfleurs/${{ name }}/archive/v${{ version }}.tar.gz
-    sha256: b83a981677676b35400bbbaf20974c396f32da31c7c7630ce55fc3e62c0e2e01
+    sha256: b18ce849d46491c9d8168351ab8479a4ed0b6ce9faaeccad6e9cae0a3c9674a9
 
 build:
   skip: win
